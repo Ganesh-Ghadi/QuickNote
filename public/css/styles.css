@@ -1,0 +1,16 @@
+
+
+
+@keyframes example {
+    from {transform: rotateX(0deg);}
+    to {transform: rotateX(180deg);}
+  }
+  
+  /* The element to apply the animation to */
+  .abc {
+    transform: rotateX(0deg);
+    animation-name: example;
+    animation-duration: 2s;
+  }
+
+  
